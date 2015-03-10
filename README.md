@@ -2,6 +2,7 @@
 An iOS app to communicate via Morse Code with local peers over WiFi / Bluetooth.
 
 Simply select a channel and start tapping in Morse to send it to those around you!
+
 Highlights include:
 - Instant Morse Code recognition
 - Chat to multiple peers simultaniously
