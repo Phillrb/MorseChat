@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="Zjg-4b-0Pg" userLabel="Settings Box">
+                    <rect key="frame" x="90" y="0.0" width="300" height="122"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-Rx-zjA">
+                            <rect key="frame" x="150" y="0.0" width="150" height="122"/>
+                            <subviews>
+                                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="MUj-sW-8p5">
+                                    <rect key="frame" x="28" y="85" width="94" height="37"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="94" id="3jU-oi-dXv"/>
+                                        <constraint firstAttribute="height" constant="37" id="iOV-yO-4qK"/>
+                                    </constraints>
+                                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </pageControl>
+                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="lWP-uq-vg2">
+                                    <rect key="frame" x="28" y="65" width="94" height="29"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="94" id="U3p-2O-gjM"/>
+                                        <constraint firstAttribute="height" constant="29" id="ni0-6Q-PNe"/>
+                                    </constraints>
+                                </stepper>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="MUj-sW-8p5" secondAttribute="trailing" constant="28" id="3ud-Sf-81W"/>
+                                <constraint firstAttribute="trailing" secondItem="lWP-uq-vg2" secondAttribute="trailing" constant="28" id="R1S-3s-YMi"/>
+                                <constraint firstAttribute="height" constant="122" id="Sv7-C7-VEV"/>
+                                <constraint firstItem="lWP-uq-vg2" firstAttribute="top" secondItem="Vo2-Rx-zjA" secondAttribute="top" constant="65" id="Uu8-zW-rAw"/>
+                                <constraint firstItem="MUj-sW-8p5" firstAttribute="leading" secondItem="Vo2-Rx-zjA" secondAttribute="leading" constant="28" id="YCJ-Pq-39a"/>
+                                <constraint firstAttribute="width" constant="150" id="lbr-yY-IT5"/>
+                                <constraint firstItem="lWP-uq-vg2" firstAttribute="leading" secondItem="Vo2-Rx-zjA" secondAttribute="leading" constant="28" id="smJ-Uu-aZe"/>
+                                <constraint firstItem="MUj-sW-8p5" firstAttribute="top" secondItem="Vo2-Rx-zjA" secondAttribute="top" constant="85" id="yu0-7V-umo"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXA-yn-BUO">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="122"/>
+                            <subviews>
+                                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="D2w-J1-net">
+                                    <rect key="frame" x="28" y="85" width="94" height="37"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="94" id="Pde-Nl-9xJ"/>
+                                        <constraint firstAttribute="height" constant="37" id="xgA-cN-w7C"/>
+                                    </constraints>
+                                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </pageControl>
+                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="WF5-Af-6RT">
+                                    <rect key="frame" x="28" y="65" width="94" height="29"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="94" id="JRo-kd-FwR"/>
+                                        <constraint firstAttribute="height" constant="29" id="abu-Am-tp1"/>
+                                    </constraints>
+                                </stepper>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="D2w-J1-net" secondAttribute="trailing" constant="28" id="6LC-tq-LgQ"/>
+                                <constraint firstItem="D2w-J1-net" firstAttribute="leading" secondItem="DXA-yn-BUO" secondAttribute="leading" constant="28" id="AZW-JU-3Z5"/>
+                                <constraint firstAttribute="trailing" secondItem="WF5-Af-6RT" secondAttribute="trailing" constant="28" id="FVD-Vc-FxZ"/>
+                                <constraint firstItem="WF5-Af-6RT" firstAttribute="leading" secondItem="DXA-yn-BUO" secondAttribute="leading" constant="28" id="VCT-yH-Cjn"/>
+                                <constraint firstAttribute="height" constant="122" id="eLt-Os-OKc"/>
+                                <constraint firstItem="WF5-Af-6RT" firstAttribute="top" secondItem="DXA-yn-BUO" secondAttribute="top" constant="65" id="fhx-NE-BH1"/>
+                                <constraint firstAttribute="width" constant="150" id="ivy-R3-TOQ"/>
+                                <constraint firstItem="D2w-J1-net" firstAttribute="top" secondItem="DXA-yn-BUO" secondAttribute="top" constant="85" id="nU8-wp-Xp8"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Vo2-Rx-zjA" firstAttribute="leading" secondItem="DXA-yn-BUO" secondAttribute="trailing" id="0ul-3N-SMS"/>
+                        <constraint firstAttribute="trailing" secondItem="Vo2-Rx-zjA" secondAttribute="trailing" id="1f0-Sy-BXo"/>
+                        <constraint firstAttribute="width" constant="300" id="DYN-Qy-L3x"/>
+                        <constraint firstItem="Vo2-Rx-zjA" firstAttribute="leading" secondItem="DXA-yn-BUO" secondAttribute="trailing" id="GVo-17-yXy"/>
+                        <constraint firstItem="DXA-yn-BUO" firstAttribute="leading" secondItem="Zjg-4b-0Pg" secondAttribute="leading" id="QM2-PZ-sg3"/>
+                        <constraint firstItem="Vo2-Rx-zjA" firstAttribute="top" secondItem="Zjg-4b-0Pg" secondAttribute="top" id="YwW-hI-pTQ"/>
+                        <constraint firstAttribute="height" constant="122" id="cvp-zM-afg"/>
+                        <constraint firstItem="DXA-yn-BUO" firstAttribute="top" secondItem="Zjg-4b-0Pg" secondAttribute="top" id="iRp-t7-UgH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Zjg-4b-0Pg" secondAttribute="centerX" id="aMH-sB-reY"/>
+                <constraint firstItem="Zjg-4b-0Pg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="slY-5k-jaD"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="404" y="445"/>
+        </view>
+    </objects>
+</document>
