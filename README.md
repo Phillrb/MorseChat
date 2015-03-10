@@ -15,9 +15,9 @@ Morse Chat makes heavy use of Apple's Multipeer Connectivity framework to send M
 The application sets ups local connections via WiFi or Bluetooth with zero configuration and gives a simple connection status via a status bar.
 
 This application utilises the following excellent 3rd party frameworks:
-- ITProgressBar by Ilija Tovilo
-- Appirater by Robert Haining
-- Flurry
+- ITProgressBar by Ilija Tovilo https://github.com/iluuu1994/ITProgressBar-iOS
+- Appirater by Robert Haining https://github.com/arashpayan/appirater
+- Flurry http://www.flurry.com/
 
 #Disclaimer
 This awesome application was (up until the end of 2014) sitting on the Apple AppStore making no money... infact it was costing me money! 
